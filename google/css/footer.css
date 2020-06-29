@@ -16,7 +16,7 @@ footer {
   left: 0;
   position: absolute;
   right: 0;
-  max-height: 82px; 
+  max-height: 82px;
   color: rgba(0, 0, 0, 0.54);
 
   line-height: 40px;
@@ -29,6 +29,9 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+}
+.country {
+  padding-left: 30px;
 }
 
 .info-left {
