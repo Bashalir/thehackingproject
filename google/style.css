@@ -1,0 +1,12 @@
+@import "./css/reset.css";
+@import "./css/header.css";
+@import "./css/main.css";
+@import "./css/search.css";
+@import "./css/find.css";
+@import "./css/footer.css";
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.87);
+}

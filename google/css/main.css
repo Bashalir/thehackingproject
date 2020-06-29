@@ -1,0 +1,22 @@
+main {
+  display: block;
+  min-width: 1139px;
+  margin: 0 auto;
+}
+
+.main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: column;
+}
+
+.logo {
+  height: 220px;
+}
+
+.logo img {
+  padding-top: 120px;
+}
+

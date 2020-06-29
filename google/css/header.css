@@ -1,0 +1,51 @@
+header {
+  width: 100vw;
+  height: 60px;
+}
+
+nav {
+  padding: 15px;
+  height: 60px;
+}
+
+.nav__container {
+  display: flex;
+
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.gmail {
+}
+
+.navlink {
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.menu {
+  height: 30px;
+  width: 30px;
+  background-position: -132px -38px;
+  background-image: url("../img/googleico.png");
+  opacity: 0.55;
+}
+
+.connexion {
+  height: 30px;
+  line-height: 28px;
+}
+
+.connexion a {
+  display: inline-block;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  color: white;
+  outline: none;
+  background: #4285f4;
+  background: -moz-linear-gradient(top, #4387fd, #4683ea);
+  background: linear-gradient(top, #4387fd, #4683ea);
+  border-radius: 2px;
+  padding: 0px 12px;
+  height: 30px;
+}
