@@ -1,4 +1,4 @@
-<img src="https://www.thehackingproject.org/packs/packs/static_pages/assets/images/navbar_logo_purple-1716fe510ac40a15c0e8cd79408de383.png" height="50px" align="left" />
+<img src="https://www.thehackingproject.org/packs/packs/static_pages/assets/images/logo_purple-f414e465314f294449ed1a4cc81c2d74.png" height="50px" align="left" />
 
 # The Hacking Project
 
