@@ -1,0 +1,141 @@
+@import "reset";
+
+body,
+html {
+  height: 100vh;
+  background-color: rgb(248, 249, 250);
+}
+
+h1 {
+  color: white;
+  font-size: xx-large;
+}
+
+.navbar {
+  display: flex;
+
+  align-items: center;
+  background-color: #1574c4;
+  height: 60px;
+
+  img {
+    padding-left: 20px;
+    height: 40px;
+  }
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position-y: 40%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url("./img/conakry_harbor.jpg");
+}
+
+.keys {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 480px;
+
+  & > div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    &:hover {
+      img {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  img {
+    fill: #4a4c4e;
+    align-self: center;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+  }
+
+  h3 {
+    color: #4a4c4e;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+  }
+  p {
+    color: #4a4c4e;
+    padding: 10px;
+    width: 300px;
+  }
+}
+
+.infos {
+  background-color: white;
+}
+
+.infos > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row;
+  height: 430px;
+  width: 100%;
+  color: #4a4c4e;
+
+  & > img {
+    object-fit: cover;
+  }
+  & h1 {
+    color: black;
+    align-self: start;
+    padding-left: 20px;
+  }
+  & p {
+    padding: 20px;
+  }
+}
+
+.bloc-info {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 430px;
+  width: 50%;
+}
+
+footer {
+  height: 60px;
+  background-color: #4a4c4e;
+}
+
+@media (max-width: 999px) {
+  .hero {
+    h1 {
+      padding: 20px;
+    }
+  }
+  .keys {
+    justify-content: flex-start;
+    flex-flow: column;
+    height: auto;
+    margin: 30px;
+    & > div {
+      margin-bottom: 30px;
+      width: 100%;
+    }
+    & p {
+      text-align: center;
+      width: 100%;
+      padding: 20px;
+    }
+  }
+}

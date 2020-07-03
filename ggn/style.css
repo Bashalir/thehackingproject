@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body,
+html {
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  color: white;
+  font-size: xx-large;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #1574c4;
+  height: 60px;
+}
+.navbar img {
+  padding-left: 20px;
+  height: 40px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position-y: 40%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("./img/conakry_harbor.jpg");
+}
+
+.keys {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 480px;
+}
+.keys > div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.keys > div:hover img {
+  transform: scale(1.2);
+}
+.keys img {
+  fill: #4a4c4e;
+  align-self: center;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+}
+.keys h3 {
+  color: #4a4c4e;
+  font-size: x-large;
+  font-weight: 700;
+  text-align: center;
+}
+.keys p {
+  color: #4a4c4e;
+  padding: 10px;
+  width: 300px;
+}
+
+.infos {
+  background-color: white;
+}
+
+.infos > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row;
+  height: 430px;
+  width: 100%;
+  color: #4a4c4e;
+}
+.infos > div > img {
+  object-fit: cover;
+}
+.infos > div h1 {
+  color: black;
+  align-self: start;
+  padding-left: 20px;
+}
+.infos > div p {
+  padding: 20px;
+}
+
+.bloc-info {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 430px;
+  width: 50%;
+}
+
+footer {
+  height: 60px;
+  background-color: #4a4c4e;
+}
+
+@media (max-width: 999px) {
+  .hero h1 {
+    padding: 20px;
+  }
+
+  .keys {
+    justify-content: flex-start;
+    flex-flow: column;
+    height: auto;
+    margin: 30px;
+  }
+  .keys > div {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .keys p {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
