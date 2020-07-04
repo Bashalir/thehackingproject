@@ -7,92 +7,86 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="197.61618mm"
-   height="60.071587mm"
-   viewBox="0 0 197.61618 60.071587"
-   version="1.1"
-   id="svg222"
    inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
-   sodipodi:docname="GGN_logo.svg">
-  <defs
-     id="defs216" />
-  <sodipodi:namedview
-     fit-margin-bottom="0"
-     fit-margin-right="0"
-     fit-margin-left="0"
-     fit-margin-top="0"
-     inkscape:pagecheckerboard="true"
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-550.03983"
-     inkscape:cy="518.05132"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="978"
-     inkscape:window-x="1080"
-     inkscape:window-y="739"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata219">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     transform="translate(-5.3022053,-11.098923)"
-     inkscape:label="Calque 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <path
-       id="path136"
-       d="M 77.308178,28.34711 79.731761,11.101569 H 11.691512 L 5.3626787,62.594777 c -0.58473,4.474104 3.145895,8.5725 7.9454373,8.569854 0,0 38.301083,0.01323 40.179625,0 1.563687,-0.105833 10.30552,-0.148166 14.030854,-8.556625 L 70.815303,43.489215 C 72.535095,31.556506 62.777261,33.339798 55.845178,33.339798 c -3.817937,0 -11.750146,-0.01058 -19.412479,-0.01058 -1.648354,10.122958 4.725458,9.993312 12.374563,9.993312 h 0.568854 l -1.666875,11.800417 -19.475979,0.0053 3.254374,-26.781125 z M 8.8340117,68.28861 v -0.0053 h 0.0053 z"
-       style="fill:#ffffff;stroke-width:0.264583" />
-    <path
-       id="path138"
-       d="m 76.162532,68.442069 v -0.0053 h 0.0053 z m 0.669396,-0.804334 v -0.0053 h 0.0053 z M 125.39884,11.098923 H 79.731762 L 77.308178,28.344465 H 138.6968 c 2.88926,-11.387667 -4.24392,-17.245542 -13.29796,-17.245542 z"
-       style="fill:#ffffff;stroke-width:0.264583" />
-    <g
-       id="g150"
-       transform="matrix(0.26458333,0,0,0.26458333,-64.905361,-89.440097)"
-       style="fill:#ffffff">
-      <g
-         id="g148"
-         style="fill:#ffffff">
-        <g
-           id="g142"
-           style="fill:#ffffff">
-          <path
-             id="path140"
-             d="m 1011.5,436.31 c -1.06,7.74 -1.35,10.12 -1.35,10.12 l -18.39,142.36 c -1.33,10.21 -10.56,17.87 -21.5,17.87 l -39.43,0.02 c -13,0 -23.07,-10.69 -21.5,-22.81 l 14.64,-113.53 c 1.66,-12.71 -9.19,-25.49 -22.81,-25.49 l -90.92,0.3 c -14.12,0 -24.49,-11.03 -22.75,-24.19 l 5.42,-40.97 h 166.18 c 28.62,0 58.27,13.16 52.41,56.32 z"
-             style="fill:#ffffff" />
-        </g>
-        <g
-           id="g146"
-           style="fill:#ffffff">
-          <path
-             id="path144"
-             d="m 787.8,464.01 h 60.03 c 12.24,0 21.71,10.07 20.2,21.47 L 854.5,586.98 C 853,598.42 842.66,607 830.39,607.02 h -34.12 c -14.59,0.02 -25.9,-11.99 -24.11,-25.59 z"
-             style="fill:#ffffff" />
-        </g>
-      </g>
-    </g>
-    <path
-       id="path152"
-       d="m 76.183699,33.329215 v 0 l -3.595688,29.262916 c -0.584729,4.474104 3.145896,8.5725 7.945438,8.569854 0,0 38.301081,0.01323 40.179621,0 1.56369,-0.105833 10.30552,-0.148166 14.03085,-8.556625 l 3.29671,-19.118791 c 1.7198,-11.932709 -8.03804,-10.149417 -14.97012,-10.149417 -3.81794,0 -11.75015,-0.01058 -19.41248,-0.01058 -1.64835,10.122958 4.72546,9.993312 12.37456,9.993312 h 0.56885 l -1.66687,11.800417 -19.475975,0.0053 2.651125,-21.799021 v 0 z M 76.059345,68.28861 v -0.0053 h 0.0053 z"
-       style="fill:#ffffff;stroke-width:0.264583" />
-  </g>
+   height="227.04222"
+   width="746.90582"
+   sodipodi:docname="GGN_logo.svg"
+   xml:space="preserve"
+   viewBox="0 0 746.90582 227.04222"
+   y="0px"
+   x="0px"
+   id="GGN"
+   version="1.1"><metadata
+   id="metadata29"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs27" /><sodipodi:namedview
+   inkscape:current-layer="GGN"
+   inkscape:window-maximized="1"
+   inkscape:window-y="739"
+   inkscape:window-x="1080"
+   inkscape:cy="114.52"
+   inkscape:cx="377.76856"
+   inkscape:zoom="0.79882812"
+   fit-margin-bottom="0"
+   fit-margin-right="0"
+   fit-margin-left="0"
+   fit-margin-top="0"
+   inkscape:pagecheckerboard="true"
+   showgrid="false"
+   id="namedview25"
+   inkscape:window-height="978"
+   inkscape:window-width="1920"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   bordercolor="#666666"
+   pagecolor="#ffffff" />
+<style
+   id="style2"
+   type="text/css">
+	.st0{fill:#E52534;}
+	.st1{fill:#FCD015;}
+	.st2{fill:#00925E;}
+	.st3{font-family:'Ikaros-Regular';}
+	.st4{font-size:25.2322px;}
+	.st5{letter-spacing:23;}
+</style>
+<path
+   id="path4"
+   d="m 272.14856,65.19 9.16,-65.18 h -257.16 L 0.22856017,194.63 C -1.9814398,211.54 12.11856,227.03 30.25856,227.02 c 0,0 144.76,0.05 151.86,0 5.91,-0.4 38.95,-0.56 53.03,-32.34 l 12.46,-72.26 c 6.5,-45.1 -30.38,-38.36 -56.58,-38.36 -14.43,0 -44.41,-0.04 -73.37,-0.04 -6.23,38.26 17.86,37.77 46.77,37.77 h 2.15 l -6.3,44.6 -73.61,0.02 12.3,-101.22 z m -258.79,150.97 v -0.02 h 0.02 z"
+   class="st0" />
+<path
+   id="path6"
+   d="m 267.82856,216.73 v -0.02 h 0.02 z m 2.52,-3.03 v -0.02 h 0.02 z m 183.56,-213.69 h -172.6 l -9.16,65.18 h 232.02 c 10.93,-43.04 -16.04,-65.18 -50.26,-65.18 z"
+   class="st1" />
+<g
+   transform="translate(-262.23144,-397.48)"
+   id="g18">
+	<g
+   id="g16">
+		<g
+   id="g10">
+			<path
+   id="path8"
+   d="m 1008.39,453.8 c -1.06,7.74 -1.35,10.12 -1.35,10.12 l -18.39,142.36 c -1.33,10.21 -10.56,17.87 -21.5,17.87 l -39.43,0.02 c -13,0 -23.07,-10.69 -21.5,-22.81 l 14.64,-113.53 c 1.66,-12.71 -9.19,-25.49 -22.81,-25.49 l -90.92,0.3 c -14.12,0 -24.49,-11.03 -22.75,-24.19 l 5.42,-40.97 h 166.18 c 28.62,0.01 58.27,13.17 52.41,56.32 z"
+   class="st2" />
+		</g>
+		<g
+   id="g14">
+			<path
+   id="path12"
+   d="m 784.69,481.51 h 60.03 c 12.24,0 21.71,10.07 20.2,21.47 l -13.53,101.5 c -1.5,11.44 -11.84,20.02 -24.11,20.04 h -34.12 c -14.59,0.02 -25.9,-11.99 -24.11,-25.59 z"
+   class="st2" />
+		</g>
+	</g>
+</g>
+<path
+   id="path20"
+   d="m 267.89856,84.03 v 0 l -13.59,110.6 c -2.21,16.91 11.89,32.4 30.03,32.39 0,0 144.76,0.05 151.86,0 5.91,-0.4 38.95,-0.56 53.03,-32.34 l 12.46,-72.26 c 6.5,-45.1 -30.38,-38.36 -56.58,-38.36 -14.43,0 -44.41,-0.04 -73.37,-0.04 -6.23,38.26 17.86,37.77 46.77,37.77 h 2.15 l -6.3,44.6 -73.61,0.02 10.02,-82.38 v 0 z m -0.47,132.13 v -0.02 h 0.02 z"
+   class="st1" />
+
 </svg>
