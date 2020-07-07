@@ -52,6 +52,10 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body,
 html {
   height: 100vh;
@@ -86,10 +90,11 @@ p {
   justify-content: center;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   max-width: 100%;
   min-height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("./img/conakry_harbor.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("./img/conakry_harbor.jpg");
+  background-attachment: fixed;
 }
 
 .keys {
@@ -127,6 +132,37 @@ p {
 
 .infos {
   background-color: white;
+}
+
+.infos [class="arrival_image bloc-info"] {
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  min-height: 430px;
+  background-image: url("img/dock.jpg");
+}
+
+.infos [class="quality_image bloc-info"] {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  min-height: 430px;
+  max-height: 430px;
+  background-image: url("img/quality.jpg");
+}
+
+.infos [class="services_image bloc-info"] {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 430px;
+  max-height: 430px;
+  background-image: url("img/services.jpg");
 }
 
 .infos > div {
@@ -191,6 +227,10 @@ footer {
     text-align: justify;
     width: 100%;
     padding: 20px;
+  }
+
+  .infos > div h2 {
+    font-size: 1.7em;
   }
 }
 @media (max-width: 768px) {
