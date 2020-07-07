@@ -12,4 +12,4 @@ Formation Full Stack Web
 
 ## Semaine 2
 
-- [Exo Ruby 1](https://github.com/Bashalir/thehackingproject/tree/master/exo-ruby-1) - Une série d'exercices en Ruby
+- [Exo Ruby 1](https://github.com/Bashalir/thehackingproject/tree/master/exo-ruby-1) - Une série d'exercices en Ruby - RUBY
