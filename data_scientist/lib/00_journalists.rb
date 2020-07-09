@@ -41,6 +41,8 @@ end
 
 chosen_question = 0
 
+puts `clear`
+
 loop do
   questions.each_with_index { |question, index| puts "[#{index + 1}] #{question}" }
   puts "\n\nChoisis une question en entrant son numéro afin d'afficher la réponse"
