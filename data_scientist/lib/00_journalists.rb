@@ -42,11 +42,39 @@ def distributionByLength(journalists)
     |handleLength,handleSorted| puts "Il y'as #{handleSorted.length} Handle de taille #{handleLength}"}
 end
 
-# puts numberOfJournalists(journalists)
-# puts theShortestHandleOfJournalists(journalists)
-# puts howManyHandleWithFiveLetters(journalists)
-# puts howManyHandleStartWithCapitalLetter(journalists)
-# p sortArrayAlphabetically(journalists)
-# p sortArrayByShortest(journalists)
-# puts findPositionOfStringInArray('@epenser',journalists)
-# puts distributionByLength(journalists)
+puts "Combien y a-t-il de handle dans cette array ?"
+puts "*"*50
+puts numberOfJournalists(journalists)
+puts "-"*50
+
+puts "Quelle est le handle le plus court de cette liste ?"
+puts "*"*50
+puts theShortestHandleOfJournalists(journalists)
+puts "-"*50
+
+puts "Combien y-a-t'il de handle contenant 5 caractères hors @"
+puts "*"*50
+puts howManyHandleWithFiveLetters(journalists)
+puts "-"*50
+
+puts "Combien commencent par une majuscule (première lettre juste après le @) ?"
+puts "*"*50
+puts howManyHandleStartWithCapitalLetter(journalists)
+puts "-"*50
+
+puts "Trie la liste de handle par ordre alphabétique."
+puts "*"*50
+p sortArrayAlphabetically(journalists)
+puts "-"*50
+puts "Trie la liste de handle par taille des handle (croissant)"
+puts "*"*50
+p sortArrayByShortest(journalists)
+puts "-"*50
+puts "Quelle est la position dans l'array de la personne @epenser ?"
+puts "*"*50
+puts findPositionOfStringInArray('@epenser',journalists)
+puts "-"*50
+puts "Sors-moi une répartition des handle par taille de ces derniers"
+puts "*"*50
+puts distributionByLength(journalists)
+puts "-"*50
