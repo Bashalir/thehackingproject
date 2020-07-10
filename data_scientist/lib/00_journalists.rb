@@ -74,7 +74,7 @@ when 5
 when 6
   puts sort_array_by_shortest(journalists)
 when 7
-  puts 'le handle @epenser est à la position : ' + findPositionOfStringInArray('@epenser', journalists)
+  puts "le handle @epenser est à la position : #{find_position_of_string_in_array('@epenser', journalists)}"
 when 8
   puts distribution_by_length(journalists)
 end
