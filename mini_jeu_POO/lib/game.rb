@@ -1,16 +1,23 @@
 # frozen_string_literal: true
 
 class Game
-  attr_accessor :human_player, :enemies
+  attr_accessor :human_player, :enemies, :player_left, :enemies_in_sight
 
   def initialize(name)
+    @player_left = 10
+    @enemies_in_sight = []
     @human_player = HumanPlayer.new(name)
     @enemies = []
-
+    
     (1..4).each do |index|
       player = Player.new("player#{index}")
       @enemies << player
+      @enemies_in_sight << player
     end
+  end
+
+  def roll_the_dice
+    rand(1..6)
   end
 
   def kill_player(player_name)
@@ -120,6 +127,30 @@ class Game
       puts "BRAVO ! TU AS GAGNE ! EN #{round} ROUND !"
     else
       puts "Loser ! Tu as perdu ! en #{round} round."
+    end
+  end
+
+  def new_players_in_sight
+    if @player_left == @enemies_in_sight.length
+      return puts 'Tous les joueurs sont déjà en vue'
+    end
+
+    luck = roll_the_dice
+
+    case luck
+    when 1
+      puts "Aucun ennemi ne s'approche"
+
+    when 2..4
+      puts 'Un nouvel adversaire arrive en vue'
+      @enemies_in_sight << Player.new("player_#{rand(1999..9999)}")
+      @player_left -= 1
+
+    else
+      puts 'Deux nouveaux adversaires arrivent en vue'
+      @enemies_in_sight << Player.new("player_#{rand(1999..9999)}")
+      @enemies_in_sight << Player.new("player_#{rand(1999..9999)}")
+      @player_left -= 2
     end
   end
 end
