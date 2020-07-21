@@ -58,6 +58,7 @@ class HumanPlayer < Player
     level = roll_the_dice
     puts "Tu as trouvé une arme de niveau #{level}"
     if level > @weapon_level
+      @weapon_level = level
       puts 'Youhou ! elle est meilleure que ton arme actuelle : tu la prends.'
     else
       puts 'M****... elle n\'est pas mieux que ton arme actuelle...'
