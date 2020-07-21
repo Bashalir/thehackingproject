@@ -47,8 +47,9 @@ while user.life_points > 0 && (enemies[0].life_points > 0 || enemies[1].life_poi
     end
     puts "\n"
     choice = gets.chomp
+    limited_choice = /^[as0-#{enemies.length - 1}]/
 
-    break if choice.length == 1 && choice =~ /^[as01]/
+    break if choice.length == 1 && choice =~ limited_choice
     puts '*******# ERREUR MAUVAISE SAISIE #******* '
     sleep(1)
     puts `clear`
