@@ -19,3 +19,7 @@ Formation Full Stack Web
 
 - [Exo Ruby 2](https://github.com/Bashalir/tests-ruby) - Découverte des tests - <img height="24px" width="24px" src="https://img.icons8.com/color/48/000000/ruby-programming-language.png"/>
 - [Exo Scrapping](https://github.com/Bashalir/crazy_scrapper) - Projet : Le scrappeur fou - <img height="24px" width="24px" src="https://img.icons8.com/color/48/000000/ruby-programming-language.png"/>
+
+## Semaine 3 - Programmation Orientée Objet
+
+- [Mini Jeu](https://github.com/Bashalir/thehackingproject/tree/master/mini_jeu_POO) - Projet : Mini jeu - il veulent tous ta POO - <img height="24px" width="24px" src="https://img.icons8.com/color/48/000000/ruby-programming-language.png"/>
