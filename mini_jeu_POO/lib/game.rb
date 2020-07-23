@@ -8,7 +8,7 @@ class Game
     @enemies_in_sight = []
     @human_player = HumanPlayer.new(name)
     @enemies = []
-    
+
     (1..4).each do |index|
       player = Player.new("player#{index}")
       @enemies << player

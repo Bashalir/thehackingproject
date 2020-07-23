@@ -24,7 +24,7 @@ round = 1
 while game.is_still_ongoing?
 
   game.new_players_in_sight
-  
+
   choice = false
 
   while choice == false
